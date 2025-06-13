@@ -1,8 +1,3 @@
-Here’s your updated `README.md` with proper attribution to the original MIT-licensed CMake template, as well as a clear license note for your own project code.
-
----
-
-````markdown
 # 🧠 Smart Inventory Management System (SIMS)
 
 The **Smart Inventory Management System (SIMS)** is an intelligent software solution built in **C++** to streamline and automate inventory operations for businesses. It focuses on **real-time tracking**, **order and delivery management**, **sales analytics**, and **AI-powered inventory forecasting** to help companies reduce costs, improve stock handling, and enhance supply chain efficiency.
@@ -43,11 +38,11 @@ The **Smart Inventory Management System (SIMS)** is an intelligent software solu
 ## 🔧 How to Run
 
 ```bash
-g++ -std=c++17 main.cpp -o sims
-./sims
-````
+    g++ -std=c++17 main.cpp -o sims
+    ./sims
+```
 
----
+
 
 ## 📄 License
 
