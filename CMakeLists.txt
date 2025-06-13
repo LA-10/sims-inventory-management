@@ -2,7 +2,7 @@
 # CMakeLists.txt. This is so that a user can clearly understand the reason the 
 # build will fail before the build actually occurs, instead of searching for the
 # CMake function that was used that is causing the failure.
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 4.0)
 
 # Set the global package-wide C++ standard. This will be inherited by all
 # targets specified in the project. One can also specify the C++ standard in a
@@ -10,7 +10,7 @@ cmake_minimum_required(VERSION 3.1)
 #   set_target_properties(foo PROPERTIES CXX_STANDARD 11)
 #   target_compile_features(foo PUBLIC cxx_std_14)
 # together.
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 20)
 
 # Set the project name and version number. This allows for a user of your
 # library or tool to specify a particular version when they include it, as in 
